@@ -54,3 +54,6 @@ int UARTInterfaceAdapter::receive(nfc_command_t command, uint8_t *data) {
   return len - 1;
 }
 
+
+
+

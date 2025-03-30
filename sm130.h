@@ -4,8 +4,7 @@
 #include <inttypes.h>
 #include <SoftwareSerial.h>
 
-enum nfc_command_t {
-  NFC_NONE = 0,
+by hyb o#  NFC_NONE = 0,
   NFC_RESET = 0x80,
   NFC_GET_FIRMWARE = 0x81,
   NFC_SEEK = 0x82,
